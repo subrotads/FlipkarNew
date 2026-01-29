@@ -18,7 +18,6 @@ public class ProductPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         PageFactory.initElements(driver, this);
     }
-//ghdghfkjhjhfkfkhfj
     
     @FindBy(xpath = "//input[@placeholder='Search for Products, Brands and More']")
     WebElement searchBox;
